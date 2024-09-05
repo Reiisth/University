@@ -23,5 +23,7 @@ public class GettingInputs{
         System.out.println("Album: " + album);
         System.out.println("Title: " + "\"" + title + "\"");
         System.out.println("Artist: " + artist);
+
+        input.close();
     }
 }
